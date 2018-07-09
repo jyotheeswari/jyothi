@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Settings.Patient_importTest">
+      <class name="events.Events_typeTest">
         <methods>
           <include name="browser"/>
-          <include name="patient_import"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- Settings.Patient_importTest -->
+      </class> <!-- events.Events_typeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
